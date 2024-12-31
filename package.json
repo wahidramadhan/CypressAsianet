@@ -1,0 +1,25 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "ok",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "test",
+    "cypress"
+  ],
+  "author": "wahid",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "undici-types": "^6.19.8"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "papaparse": "^5.4.1"
+  }
+}
