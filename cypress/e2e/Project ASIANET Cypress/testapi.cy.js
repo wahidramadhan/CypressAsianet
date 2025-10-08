@@ -7,8 +7,8 @@ describe('API Testing dengan Cypress', () => {
       method: 'POST',
       url: 'https://apidev-tmf.asianet.co.id/amt/1.1/atm/generateToken', 
       body: {
-        email: 'Pramana@ioh.co.id',
-        password: 'ltsm321Q@'
+        email: '',
+        password: ''
       },
       headers: { 
         'content-type': 'application/json'
