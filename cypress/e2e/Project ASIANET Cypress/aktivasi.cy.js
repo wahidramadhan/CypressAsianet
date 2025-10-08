@@ -8,8 +8,8 @@ describe('API Test with CSV Data for Dynamic Parameters', () => {
               method: 'POST',
               url: 'http://10.10.4.2/amt/1.1/atm/generateToken', 
               body: {
-                email: 'Pramana@ioh.co.id',
-                password: 'ltsm321Q@'
+                email: '',
+                password: ''
               },
               headers: { 
                 'content-type': 'application/json'
