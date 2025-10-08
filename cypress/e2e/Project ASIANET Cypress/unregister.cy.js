@@ -75,8 +75,8 @@ describe('API Testing dengan Cypress', () => {
       url: 'http://10.10.2.22/soap/services/ApcRemotePort/9.7',
       body: soapRequest,
       auth: {
-        username: 'asianet',
-        password: 'AMT-Asianet2022'
+        username: '',
+        password: ''
       }      
     }).then((response) => {
       
